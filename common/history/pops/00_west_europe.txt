@@ -1253,19 +1253,98 @@
 		}
 	}
 	s:STATE_WESTPHALIA = {
+		region_state:FRM = {
+			create_pop = {
+				culture = north_german
+				size = 100872
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 4000
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 8000
+			}
+		}
+		region_state:HES = {
+			create_pop = {
+				culture = north_german
+				size = 583308
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 140800
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 5000
+			}
+		}
+		region_state:HEK = {
+			create_pop = {
+				culture = north_german
+				size = 500688
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 129200
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 3400
+			}
+		}		
+		region_state:NAS = {
+			create_pop = {
+				culture = north_german
+				size = 192004
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 2400
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 208000
+			}
+		}
+		region_state:WLD = {
+			create_pop = {
+				culture = north_german
+				size = 27436
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 28011
+			}
+		}
 		region_state:PRU = {
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 771111
+				size = 2728119
+			}
+			create_pop = {
+				culture = french
+				size = 8400
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 1004
+				size = 4008
+			}
+			create_pop = {
+				culture = wallonian
+				size = 4000
 			}
 			create_pop = {
 				culture = north_german
-				size = 506715
+				size = 1162711
 			}
 		}
 		region_state:LIP = {
@@ -1289,24 +1368,7 @@
 				culture = north_german
 				size = 8045
 			}
-		}			
-	}
-	s:STATE_RHINELAND = {
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 424000
-			}
-			create_pop = {
-				culture = french
-				size = 8400
-			}
-			create_pop = {
-				culture = north_german
-				size = 323992
-			}
-		}
+		}	
 		region_state:BAV = {
 			create_pop = {
 				culture = south_german
@@ -1321,46 +1383,7 @@
 				religion = protestant
 				size = 303996
 			}
-		}
-	}
-	s:STATE_NORTH_RHINE = {
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 830379
-			}
-			create_pop = {
-				culture = north_german
-				size = 179847
-			}
-			create_pop = {
-				culture = wallonian
-				size = 4000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 1502
-			}
-		}
-	}
-
-	s:STATE_RUHR = {
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 702629
-			}
-			create_pop = {
-				culture = north_german
-				size = 152157
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 1502
-			}
-		}
+		}		
 	}
 	s:STATE_BRANDENBURG = {
 		region_state:SAX = {
@@ -1676,78 +1699,5 @@
 				size = 820400
 			}
 		}
-	}
-	s:STATE_HESSE = {
-		region_state:FRM = {
-			create_pop = {
-				culture = north_german
-				size = 100872
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 4000
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 8000
-			}
-		}
-		region_state:HES = {
-			create_pop = {
-				culture = north_german
-				size = 583308
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 140800
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 5000
-			}
-		}
-		region_state:HEK = {
-			create_pop = {
-				culture = north_german
-				size = 500688
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 129200
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 3400
-			}
-		}		
-		region_state:NAS = {
-			create_pop = {
-				culture = north_german
-				size = 192004
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 2400
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 208000
-			}
-		}
-		region_state:WLD = {
-			create_pop = {
-				culture = north_german
-				size = 27436
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 28011
-			}
-		}		
 	}
 }
