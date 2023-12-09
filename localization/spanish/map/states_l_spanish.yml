@@ -551,7 +551,7 @@
  STATE_ISTRIA: "Istria"
  STATE_VENETIA: "Venecia"
  STATE_LOMBARDY: "Lombardía"
- STATE_BOHEMIA: "Bohemia"
+ STATE_BOHEMIA: "Bohemia y Moravia"
  STATE_MORAVIA: "Moravia"
  STATE_CENTRAL_HUNGARY: "Hungría Central"
  STATE_STYRIA: "Estiria"

@@ -6826,7 +6826,6 @@ STATES = {
 		}
 		
 		add_homeland = cu:hungarian
-		add_homeland = cu:south_german
 	}
 	s:STATE_ISTRIA = {
 		create_state = {
@@ -6849,18 +6848,9 @@ STATES = {
 	s:STATE_BOHEMIA = {
 		create_state = {
 			country = c:AUS
-			owned_provinces = { x71E041 xCDE96E x0B9B4F x465A13 x81C142 x9080A0 xFA371D x9C175D x61902F xEE1941 x716141 xA40163 x400226 x1D6B94 x67FE18 xF06141 xAFD2D1 xF0E041 xD286DB x2ED2B3 x74C71F }
+			owned_provinces = { x08AA4B xD9A784 x49C8F7 xEF6080 x12778D x71E080 x4B3444 x1D088E xF0E080 x10DFDF x71E041 xCDE96E x0B9B4F x465A13 x81C142 x9080A0 xFA371D x9C175D x61902F xEE1941 x716141 xA40163 x400226 x1D6B94 x67FE18 xF06141 xAFD2D1 xF0E041 xD286DB x2ED2B3 x74C71F }
 		}
 		
-		add_homeland = cu:czech
-		add_homeland = cu:south_german
-	}
-	s:STATE_MORAVIA = {
-		create_state = {
-			country = c:AUS
-			owned_provinces = { x08AA4B xD9A784 x49C8F7 xEF6080 x12778D x71E080 x4B3444 x1D088E xF0E080 x10DFDF }
-		}
-
 		add_homeland = cu:czech
 		add_homeland = cu:south_german
 	}
@@ -6872,26 +6862,10 @@ STATES = {
 		
 		add_homeland = cu:hungarian
 	}
-	s:STATE_STYRIA = {
-		create_state = {
-			country = c:AUS
-			owned_provinces = { xB06141 x86FD73 xB4D292 x8F8020 x1101A0 x155A44 x59D927 x017E3C }
-		}
-		
-		add_homeland = cu:south_german
-	}
-	s:STATE_TYROL = {
-		create_state = {
-			country = c:AUS
-			owned_provinces = { x51C0E0 x4A9C68 xEC6873 xC74CD7 xF061C0 xAB7EB0 x5D4166 xD0C0E0 xF0E0C0 }
-		}
-		
-		add_homeland = cu:south_german
-	}
 	s:STATE_AUSTRIA = {
 		create_state = {
 			country = c:AUS
-			owned_provinces = { xA40093 x316141 x7F2E4E x1180A0 x0CBB8F x20CF50 x84C7C3 xA9793B x62F70E x9001A0 xFDA6CB }
+			owned_provinces = { x51C0E0 x4A9C68 xEC6873 xC74CD7 xF061C0 xAB7EB0 x5D4166 xD0C0E0 xF0E0C0 xB06141 x86FD73 xB4D292 x8F8020 x1101A0 x155A44 x59D927 x017E3C xA40093 x316141 x7F2E4E x1180A0 x0CBB8F x20CF50 x84C7C3 xA9793B x62F70E x9001A0 xFDA6CB }
 		}
 		
 		add_homeland = cu:south_german
@@ -6902,7 +6876,6 @@ STATES = {
 			owned_provinces = { xD0BF60 x1120FF xD040E0 x039D0F }
 		}
 		
-		add_homeland = cu:south_german
 		add_homeland = cu:north_italian
 	}
 	s:STATE_SLOVENIA = {
@@ -6911,7 +6884,6 @@ STATES = {
 			owned_provinces = { x31E041 xB0E040 x792B8A x44F127 }
 		}
 		
-		add_homeland = cu:south_german
 		add_homeland = cu:slovene
 	}
 	s:STATE_DELVIDEK = {

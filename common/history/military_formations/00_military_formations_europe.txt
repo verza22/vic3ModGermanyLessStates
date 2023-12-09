@@ -202,13 +202,13 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_MORAVIA
+				state_region = s:STATE_BOHEMIA
 				count = 10
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_STYRIA
+				state_region = s:STATE_AUSTRIA
 				count = 10
 			}
 			save_scope_as = i_korps

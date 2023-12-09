@@ -1062,7 +1062,7 @@
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 1964404
+				size = 3058486
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -1082,51 +1082,10 @@
 				religion = protestant
 				size = 8000
 			}
-		}
-	}
-	s:STATE_BOHEMIA = {
-		region_state:AUS = {
 			create_pop = {
-				culture = south_german
-				size = 1499608
-			}
-			create_pop = {
-				culture = czech
+				culture = alemannic
 				religion = catholic
-				size = 2574808
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 75996
-			}
-		}
-	}
-	s:STATE_MORAVIA = {
-		region_state:AUS = {
-			create_pop = {
-				culture = south_german
-				size = 480408
-			}
-			create_pop = {
-				culture = czech
-				religion = catholic
-				size = 1131996
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 28000
-			}
-			create_pop = {
-				culture = polish
-				size = 56004
-			}
-		}
-	}
-	s:STATE_STYRIA = {
-		region_state:AUS = {
-			create_pop = {
-				culture = south_german
-				size = 664796
+				size = 130018
 			}
 			create_pop = {
 				culture = slovene
@@ -1134,17 +1093,24 @@
 			}
 		}
 	}
-	s:STATE_TYROL = {
+	s:STATE_BOHEMIA = {
 		region_state:AUS = {
 			create_pop = {
 				culture = south_german
-				size = 429286
+				size = 1980016
 			}
-			# Voralberg. Arbitrarily pinning this at 23% of the total population of Voralburg + Tyrol + Salzburg
 			create_pop = {
-				culture = alemannic
+				culture = czech
 				religion = catholic
-				size = 130018
+				size = 3706804
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 103996
+			}
+			create_pop = {
+				culture = polish
+				size = 56004
 			}
 		}
 	}
