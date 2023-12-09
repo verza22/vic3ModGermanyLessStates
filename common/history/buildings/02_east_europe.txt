@@ -666,6 +666,18 @@
 	s:STATE_POSEN={
 		region_state:PRU={
 			create_building={
+				building="building_government_administration"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
+			}
+			create_building={
+				building="building_railway"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_steam_trains" "pm_wooden_passenger_carriages" }
+			}
+			create_building={
 				building="building_textile_mills"
 				level=8
 				reserves=1
