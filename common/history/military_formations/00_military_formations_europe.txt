@@ -31,7 +31,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_ANHALT
+				state_region = s:STATE_BRANDENBURG
 				count = 15
 			}
 			save_scope_as = kavalleriekorp
@@ -1750,37 +1750,37 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_SAXONY
+				state_region = s:STATE_BRANDENBURG
 				count = 4
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry # Jägers
-				state_region = s:STATE_SAXONY
+				state_region = s:STATE_BRANDENBURG
 				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_SAXONY
+				state_region = s:STATE_BRANDENBURG
 				count = 1
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_SAXONY
+				state_region = s:STATE_BRANDENBURG
 				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_SAXONY
+				state_region = s:STATE_BRANDENBURG
 				count = 1
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_mobile_artillery
-				state_region = s:STATE_SAXONY
+				state_region = s:STATE_BRANDENBURG
 				count = 1
 			}
 		}
@@ -1940,49 +1940,49 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_HANNOVER
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
 				count = 6
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_ELBE
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
 				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry # Jägers
-				state_region = s:STATE_HANNOVER
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
 				count = 1
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cuirassiers
-				state_region = s:STATE_HANNOVER
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
 				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_hussars
-				state_region = s:STATE_HANNOVER
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
 				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_lancers
-				state_region = s:STATE_ELBE
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
 				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_dragoons
-				state_region = s:STATE_HANNOVER
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
 				count = 2
 			}
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_HANNOVER
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
 				count = 1
 			}
 		}
@@ -1994,7 +1994,7 @@
 
 			combat_unit = {
 				type = unit_type:combat_unit_type_frigate # Technically a mere brig.
-				state_region = s:STATE_HANNOVER
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
 				count = 1
 			}
 		}
@@ -2034,13 +2034,13 @@
 
 			combat_unit = { # 1. Regiment, 2. Regiment
 				type = unit_type:combat_unit_type_line_infantry
-				state_region = s:STATE_HANNOVER
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
 				count = 2
 			}
 
 			combat_unit = { # Großherzoglich Oldenburgische Artillerie-Kompanie
 				type = unit_type:combat_unit_type_cannon_artillery
-				state_region = s:STATE_HANNOVER
+				state_region = s:STATE_SCHLESWIG_HOLSTEIN
 				count = 1
 			}
 		}

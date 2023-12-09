@@ -1197,35 +1197,6 @@
 			}
 		}
 	}
-	s:STATE_ELBE = {
-		region_state:BRE = {
-			create_pop = {
-				culture = north_german
-				size = 102004
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 4000
-			}
-		}
-		region_state:HAM = {
-			create_pop = {
-				culture = north_german
-				size = 142404
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 8000
-			}
-		}
-		region_state:HAN = {
-			create_pop = {
-				culture = north_german
-				size = 512788
-			}
-		}
-	}
 	s:STATE_EAST_SWITZERLAND = {
 		region_state:SWI = {
 			# 895200 total
@@ -1320,34 +1291,6 @@
 			}
 		}			
 	}
-	s:STATE_ANHALT = {
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				size = 1196400
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 183996
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 2996
-			}
-		}
-		region_state:ANH = {
-			create_pop = {
-				culture = north_german
-				size = 180008
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 16000
-			}
-		}
-	}
 	s:STATE_RHINELAND = {
 		region_state:PRU = {
 			create_pop = {
@@ -1420,19 +1363,136 @@
 		}
 	}
 	s:STATE_BRANDENBURG = {
-		region_state:PRU = {
+		region_state:SAX = {
 			create_pop = {
 				culture = north_german
-				size = 1558704
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 8800
+				size = 1453212
 			}
 			create_pop = {
 				culture = north_german
 				religion = catholic
-				size = 44000
+				size = 13004
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 5072
+			}
+			create_pop = { # rough estimate of 200k Sorbs in 1836
+				culture = sorb
+				size = 150106
+			}
+			create_pop = {
+				culture = sorb
+				religion = protestant
+				size = 50106
+			}
+		}
+		region_state:MEI = {
+			create_pop = {
+				culture = north_german
+				size = 133000
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 2000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 312
+			}
+		}
+		region_state:WEI = {
+			create_pop = {
+				culture = north_german
+				size = 230000
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 3000
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 840
+			}
+		}	
+		region_state:COB = {
+			create_pop = {
+				culture = north_german
+				size = 154000
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 2035
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 502
+			}
+		}	
+		region_state:SCW = {
+			create_pop = {
+				culture = north_german
+				size = 110000
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 1539
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 293
+			}
+		}	
+		region_state:BRA = {
+			create_pop = {
+				culture = north_german
+				size = 220400
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 4000
+			}
+		}
+		region_state:HAN = {
+			create_pop = {
+				culture = north_german
+				size = 180000
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 4000
+			}
+		}
+		region_state:ANH = {
+			create_pop = {
+				culture = north_german
+				size = 180008
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 16000
+			}
+		}
+		region_state:PRU = {
+			create_pop = {
+				culture = north_german
+				size = 2867104
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 11796
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 227996
 			}
 			create_pop = {
 				culture = polish
@@ -1441,6 +1501,57 @@
 		}
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN = {
+		region_state:BRE = {
+			create_pop = {
+				culture = north_german
+				size = 102004
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 4000
+			}
+		}
+		region_state:HAM = {
+			create_pop = {
+				culture = north_german
+				size = 142404
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 8000
+			}
+		}
+		region_state:OLD = {
+			create_pop = {
+				culture = north_german
+				size = 219696
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 38000
+			}
+		}
+		region_state:HAN = {
+			create_pop = {
+				culture = north_german
+				size = 1454996
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
+				size = 195996
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 8000
+			}
+			create_pop = {
+				culture = dutch
+				size = 4004
+			}
+		}
 		region_state:HOL = {
 			create_pop = {
 				culture = north_german
@@ -1532,68 +1643,6 @@
 			}
 		}
 	}
-	s:STATE_HANNOVER = {
-		region_state:OLD = {
-			create_pop = {
-				culture = north_german
-				size = 219696
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 38000
-			}
-		}
-		region_state:HAN = {
-			create_pop = {
-				culture = north_german
-				size = 942208
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 195996
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 8000
-			}
-			create_pop = {
-				culture = dutch
-				size = 4004
-			}
-		}
-	}
-	s:STATE_BRUNSWICK = {
-		region_state:HAN = {
-			create_pop = {
-				culture = north_german
-				size = 180000
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 4000
-			}
-		}
-		region_state:BRA = {
-			create_pop = {
-				culture = north_german
-				size = 220400
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 4000
-			}
-		}
-		region_state:PRU = {
-			create_pop = {
-				culture = north_german
-				size = 112000
-			}
-		}
-	}
 	s:STATE_BAVARIA = {
 		region_state:BAV = {
 			create_pop = {
@@ -1627,92 +1676,6 @@
 				size = 820400
 			}
 		}
-	}
-	s:STATE_SAXONY = {
-		region_state:SAX = {
-			create_pop = {
-				culture = north_german
-				size = 1453212
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 13004
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 5072
-			}
-			create_pop = { # rough estimate of 200k Sorbs in 1836
-				culture = sorb
-				size = 150106
-			}
-			create_pop = {
-				culture = sorb
-				religion = protestant
-				size = 50106
-			}
-		}
-		region_state:MEI = {
-			create_pop = {
-				culture = north_german
-				size = 133000
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 2000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 312
-			}
-		}
-		region_state:WEI = {
-			create_pop = {
-				culture = north_german
-				size = 230000
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 3000
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 840
-			}
-		}	
-		region_state:COB = {
-			create_pop = {
-				culture = north_german
-				size = 154000
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 2035
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 502
-			}
-		}	
-		region_state:SCW = {
-			create_pop = {
-				culture = north_german
-				size = 110000
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 1539
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 293
-			}
-		}		
 	}
 	s:STATE_HESSE = {
 		region_state:FRM = {
