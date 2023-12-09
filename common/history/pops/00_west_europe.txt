@@ -1616,7 +1616,7 @@
 			}
 		}
 	}
-	s:STATE_WURTTEMBERG = {
+	s:STATE_BAVARIA = {
 		region_state:WUR = {
 			create_pop = {
 				culture = south_german
@@ -1642,9 +1642,7 @@
 				culture = south_german
 				size = 21024
 			}
-		}		
-	}
-	s:STATE_BADEN = {
+		}	
 		region_state:BAD = {
 			create_pop = {
 				culture = south_german
@@ -1665,38 +1663,19 @@
 				size = 143154
 			}
 		}
-	}
-	s:STATE_BAVARIA = {
 		region_state:BAV = {
 			create_pop = {
 				culture = south_german
-				size = 1682000
+				size = 2733792
 			}
 			create_pop = {
 				culture = south_german
 				religion = protestant
-				size = 55000
+				size = 875400
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 5004
-			}
-		}
-	}
-	s:STATE_FRANCONIA = {
-		region_state:BAV = {
-			create_pop = {
-				culture = south_german
-				size = 1051792
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 4000
-			}
-			create_pop = {
-				culture = south_german
-				religion = protestant
-				size = 820400
+				size = 9004
 			}
 		}
 	}

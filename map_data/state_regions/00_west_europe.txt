@@ -1238,73 +1238,23 @@ STATE_SCHLESWIG_HOLSTEIN = {
     naval_exit_id = 3019
 }
 
-STATE_WURTTEMBERG = {
-    id = 67
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x100060" "x118060" "x8F0060" "x908060" "xC541D2" "xDBB84C" }
-    prime_land = { "x118060" "x100060" "xC541D2" }
-    traits = { "state_trait_black_forest" }
-    city = "x118060"
-    farm = "xDBB84C"
-    mine = "xDBB84C"
-    wood = "xC541D2"
-    arable_land = 70
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
-    capped_resources = {
-        bg_logging = 9
-    }
-}
-
-STATE_BADEN = {
-    id = 68
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x318061" "xAEBA2A" "xB00160" "xB08061" "xE0A2B9" }
-    traits = { "state_trait_rhine_river" "state_trait_black_forest" }
-    city = "xE0A2B9"
-    farm = "xB08061"
-    mine = "xAEBA2A"
-    wood = "x318061"
-    arable_land = 50
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
-    capped_resources = {
-        bg_coal_mining = 20
-        bg_iron_mining = 15
-        bg_logging = 11
-    }
-}
-
 STATE_BAVARIA = {
     id = 71
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x010AD7" "x18A2E1" "x3101A0" "x318021" "x565185" "x68CE1C" "x6EA29B" "x704A5F" "x82F4B9" "x8C26DD" "xA7094D" "xB00121" "xB08021" "xC347B1" "xE75868" "xE76994" "xFE59E7" }
-    traits = { "state_trait_danube_river" }
+    provinces = { "x100060" "x118060" "x8F0060" "x908060" "xC541D2" "xDBB84C" "x318061" "xAEBA2A" "xB00160" "xB08061" "xE0A2B9" "x0B0DBA" "x51C0A0" "x648AD1" "x9040A0" "xA55FB1" "xD041A0" "xD0C0A0" "xF91154" "x010AD7" "x18A2E1" "x3101A0" "x318021" "x565185" "x68CE1C" "x6EA29B" "x704A5F" "x82F4B9" "x8C26DD" "xA7094D" "xB00121" "xB08021" "xC347B1" "xE75868" "xE76994" "xFE59E7" }
+    traits = { "state_trait_danube_river" "state_trait_rhine_river" "state_trait_black_forest" }
+    prime_land = { "x118060" "x100060" "xC541D2" }
     city = "xE76994"
     farm = "xFE59E7"
     mine = "xE75868"
     wood = "xC347B1"
-    arable_land = 65
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" }
-    capped_resources = {
-        bg_coal_mining = 60
-        bg_iron_mining = 30
-        bg_lead_mining = 30
-        bg_logging = 23
-    }
-}
-
-STATE_FRANCONIA = {
-    id = 72
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x0B0DBA" "x51C0A0" "x648AD1" "x9040A0" "xA55FB1" "xD041A0" "xD0C0A0" "xF91154" }
-    city = "xD0C0A0"
-    farm = "x648AD1"
-    mine = "xF91154"
-    wood = "x51C0A0"
-    arable_land = 80
+    arable_land = 265
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
-        bg_iron_mining = 30
-        bg_logging = 17
+        bg_coal_mining = 80
+        bg_iron_mining = 75
+        bg_lead_mining = 30
+        bg_logging = 60
     }
 }
 
